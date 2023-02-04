@@ -771,6 +771,12 @@ body {
   text-decoration-line: underline;
   color: #292d33;
   margin-right: 5rem;
+  text-decoration: none;
+  border-bottom: 2px solid #fff;
+  transition: border-color 0.2s;
+}
+.footer-phone:hover {
+  border-color: #000;
 }
 .footer-social-link {
   margin-left: 1rem;
@@ -793,11 +799,18 @@ body {
   font-size: 1rem;
   line-height: 160%;
   color: #292d33;
+  transition: color 0.2s;
 }
 .footer-menu-list {
   list-style: none;
   margin: 0;
   padding-left: 1.25rem;
+}
+.footer-menu-title:hover {
+  color: #5c8ee6;
+}
+.footer-menu-item:hover .footer-menu-link {
+  color: #5c8ee6;
 }
 .footer-menu-column-2 {
   columns: 20rem auto;
@@ -811,6 +824,7 @@ body {
   line-height: 160%;
   margin-bottom: 0.9375rem;
   display: block;
+  transition: color 0.2s;
 }
 .footer-menu-link-bold {
   font-weight: 600;
@@ -842,6 +856,14 @@ body {
   font-size: 0.7rem;
   line-height: 160%;
   color: #828a99;
+}
+.footer-policy {
+  text-decoration: none;
+  border-bottom: 1px solid #fff;
+  transition: border-color 0.2s;
+}
+.footer-policy:hover {
+  border-color: #828a99;
 }
 .footer-author {
   font-size: 0.7rem;
