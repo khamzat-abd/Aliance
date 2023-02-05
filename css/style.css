@@ -147,6 +147,7 @@ body {
   text-decoration: none;
   font-size: 1rem;
   color: inherit;
+  transition: color 0.2s;
 }
 .header-phone-link:hover {
   color: #5c8ee6;
@@ -780,6 +781,10 @@ body {
   font-style: inherit;
   text-decoration: inherit;
   color: inherit;
+  transition: color 0.2s;
+}
+.footer-info-email:hover {
+  color: #5c8ee5;
 }
 .footer-phone {
   font-style: normal;
@@ -1747,6 +1752,45 @@ body {
   }
   .founder-text {
     max-width: 40rem;
+  }
+  .primary-button-next:hover {
+    background-color: #3a71d1;
+  }
+  .primary-button-prev:hover {
+    background-color: #3a71d1;
+  }
+  .button:hover {
+    background-color: #3a71d1;
+  }
+  .button-link:hover::before {
+    width: 2.75rem;
+  }
+  .footer-phone:hover {
+    border-color: #fff;
+  }
+  .footer-info-email:hover {
+    color: #292d33;
+  }
+  .footer-menu-item:hover .footer-menu-link {
+    color: #828a99;
+  }
+  .footer-policy:hover {
+    border-color: #fff;
+  }
+  .mark:hover .mark-title {
+    color: #000;
+  }
+  .mark:hover {
+    border-color: #ebebf0;
+  }
+  .mark:hover .mark-image {
+    fill: #828a99;
+  }
+  .card:hover .card-title {
+    color: #000;
+  }
+  .card:hover {
+    border-color: #ebebf0;
   }
 }
 @media (max-width: 768px) {
