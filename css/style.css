@@ -133,9 +133,6 @@ body {
   transform: scaleX(0);
   transition: transform 0.2s;
 }
-.header-nav-link:hover::after {
-  transform: scaleX(1);
-}
 .header-phone {
   flex-shrink: 0;
   display: flex;
@@ -149,9 +146,6 @@ body {
   color: inherit;
   transition: color 0.2s;
 }
-.header-phone-link:hover {
-  color: #5c8ee6;
-}
 .button {
   font-weight: 600;
   font-size: 1rem;
@@ -163,9 +157,6 @@ body {
   display: inline-block;
   cursor: pointer;
   transition: background-color 0.2s;
-}
-.button:hover {
-  background-color: #5c8ee6;
 }
 .navbar-button {
   flex-shrink: 0;
@@ -254,12 +245,6 @@ body {
   justify-content: center;
   cursor: pointer;
   transition: background-color 0.2s;
-}
-.primary-button-next:hover {
-  background-color: #5c8ee6;
-}
-.primary-button-prev:hover {
-  background-color: #5c8ee6;
 }
 .slids-buttons {
   display: none;
@@ -372,9 +357,6 @@ body {
   margin-right: 1.25rem;
   transition: width 0.2s;
 }
-.button-link:hover::before {
-  width: 3.75rem;
-}
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -385,12 +367,6 @@ body {
   border: 1px solid #ebebf0;
   position: relative;
   transition: border 0.2s;
-}
-.card:hover .card-title {
-  color: #5c8ee5;
-}
-.card:hover {
-  border-color: #5c8ee5;
 }
 .card-content {
   padding: 2.5rem 2.38rem;
@@ -440,15 +416,6 @@ body {
   grid-template-rows: auto 2fr;
   grid-column-gap: 3.125rem;
   grid-template-areas: "logo title title" "logo text text";
-}
-.mark:hover .mark-title {
-  color: #5c8ee5;
-}
-.mark:hover {
-  border-color: #5c8ee5;
-}
-.mark:hover .mark-image {
-  fill: #5c8ee5;
 }
 .mark-title {
   font-weight: 400;
@@ -562,9 +529,6 @@ body {
   padding: 1rem;
   filter: grayscale(100%);
   transition: filter 0.2s;
-}
-.clients-logo-item:hover {
-  filter: grayscale(0);
 }
 .clients-logo {
   width: 70px;
@@ -783,9 +747,6 @@ body {
   color: inherit;
   transition: color 0.2s;
 }
-.footer-info-email:hover {
-  color: #5c8ee5;
-}
 .footer-phone {
   font-style: normal;
   font-weight: 600;
@@ -797,9 +758,6 @@ body {
   text-decoration: none;
   border-bottom: 2px solid #fff;
   transition: border-color 0.2s;
-}
-.footer-phone:hover {
-  border-color: #000;
 }
 .footer-social-link {
   margin-left: 1rem;
@@ -827,9 +785,6 @@ body {
   list-style: none;
   margin: 0;
   padding-left: 1.25rem;
-}
-.footer-menu-item:hover .footer-menu-link {
-  color: #5c8ee6;
 }
 .footer-menu-column-2 {
   columns: 20rem auto;
@@ -880,9 +835,6 @@ body {
   text-decoration: none;
   border-bottom: 1px solid #fff;
   transition: border-color 0.2s;
-}
-.footer-policy:hover {
-  border-color: #828a99;
 }
 .footer-author {
   font-size: 0.7rem;
@@ -1110,9 +1062,6 @@ body {
 .seo-button-link-icon {
   transition: transform 0.2s;
 }
-.seo-button-link-icon:hover {
-  transform: rotate(360deg);
-}
 .blog-shell {
   margin-top: 7rem;
 }
@@ -1142,12 +1091,6 @@ body {
   border-color: #5c8ee6;
 }
 .blog-shell-page.active .blog-shell-number {
-  color: #5c8ee6;
-}
-.blog-shell-page:hover {
-  border-color: #5c8ee6;
-}
-.blog-shell-page:hover .blog-shell-number {
   color: #5c8ee6;
 }
 .blog-shell-number {
@@ -1336,6 +1279,65 @@ body {
 }
 .products {
   margin-top: 10rem;
+}
+@media (min-width: 992px) {
+  .header-nav-link:hover::after {
+    transform: scaleX(1);
+  }
+  .header-phone-link:hover {
+    color: #5c8ee6;
+  }
+  .button:hover {
+    background-color: #5c8ee6;
+  }
+  .primary-button-next:hover {
+    background-color: #5c8ee6;
+  }
+  .primary-button-prev:hover {
+    background-color: #5c8ee6;
+  }
+  .button-link:hover::before {
+    width: 3.75rem;
+  }
+  .card:hover .card-title {
+    color: #5c8ee5;
+  }
+  .card:hover {
+    border-color: #5c8ee5;
+  }
+  .mark:hover .mark-title {
+    color: #5c8ee5;
+  }
+  .mark:hover {
+    border-color: #5c8ee5;
+  }
+  .mark:hover .mark-image {
+    fill: #5c8ee5;
+  }
+  .clients-logo-item:hover {
+    filter: grayscale(0);
+  }
+  .footer-info-email:hover {
+    color: #5c8ee5;
+  }
+  .footer-phone:hover {
+    border-color: #000;
+  }
+  .footer-menu-item:hover .footer-menu-link {
+    color: #5c8ee6;
+  }
+  .footer-policy:hover {
+    border-color: #828a99;
+  }
+  .seo-button-link-icon:hover {
+    transform: rotate(360deg);
+  }
+  .blog-shell-page:hover {
+    border-color: #5c8ee6;
+  }
+  .blog-shell-page:hover .blog-shell-number {
+    color: #5c8ee6;
+  }
 }
 @media (max-width: 1700px) {
   html {
@@ -1752,45 +1754,6 @@ body {
   }
   .founder-text {
     max-width: 40rem;
-  }
-  .primary-button-next:hover {
-    background-color: #3a71d1;
-  }
-  .primary-button-prev:hover {
-    background-color: #3a71d1;
-  }
-  .button:hover {
-    background-color: #3a71d1;
-  }
-  .button-link:hover::before {
-    width: 2.75rem;
-  }
-  .footer-phone:hover {
-    border-color: #fff;
-  }
-  .footer-info-email:hover {
-    color: #292d33;
-  }
-  .footer-menu-item:hover .footer-menu-link {
-    color: #828a99;
-  }
-  .footer-policy:hover {
-    border-color: #fff;
-  }
-  .mark:hover .mark-title {
-    color: #000;
-  }
-  .mark:hover {
-    border-color: #ebebf0;
-  }
-  .mark:hover .mark-image {
-    fill: #828a99;
-  }
-  .card:hover .card-title {
-    color: #000;
-  }
-  .card:hover {
-    border-color: #ebebf0;
   }
 }
 @media (max-width: 768px) {
