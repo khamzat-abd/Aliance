@@ -79,18 +79,18 @@
           <div class="footer-menu-wrapper">
             <ul class="footer-menu-list">
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link footer-menu-link-bold"
-                  >О компании</a
+                <p class="footer-menu-title footer-menu-link-bold"
+                  >О компании</p
                 >
               </li>
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link footer-menu-link-bold"
-                  >Новости</a
+                <p class="footer-menu-title footer-menu-link-bold"
+                  >Новости</p
                 >
               </li>
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link footer-menu-link-bold"
-                  >Контакты</a
+                <p class="footer-menu-title footer-menu-link-bold"
+                  >Контакты</p
                 >
               </li>
             </ul>

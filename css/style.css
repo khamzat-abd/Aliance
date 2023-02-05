@@ -158,6 +158,10 @@ body {
   border: none;
   display: inline-block;
   cursor: pointer;
+  transition: background-color 0.2s;
+}
+.button:hover {
+  background-color: #5c8ee6;
 }
 .navbar-button {
   flex-shrink: 0;
@@ -171,6 +175,7 @@ body {
   height: 100%;
   width: 19.6875rem;
   padding: 1.625rem 3.75rem;
+  text-decoration: none;
 }
 .seporator {
   background: #5c8ee6;
@@ -237,13 +242,20 @@ body {
 }
 .primary-button-prev,
 .primary-button-next {
-  background-color: #5c8ee5;
+  background-color: #3a71d1;
   height: 100%;
   width: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  transition: background-color 0.2s;
+}
+.primary-button-next:hover {
+  background-color: #5c8ee6;
+}
+.primary-button-prev:hover {
+  background-color: #5c8ee6;
 }
 .slids-buttons {
   display: none;
@@ -268,6 +280,9 @@ body {
   line-height: 160%;
   margin-bottom: 0;
   margin-top: 1.125rem;
+}
+.header-features-text-black {
+  color: #000;
 }
 .section {
   margin-top: 9.375rem;
@@ -799,15 +814,11 @@ body {
   font-size: 1rem;
   line-height: 160%;
   color: #292d33;
-  transition: color 0.2s;
 }
 .footer-menu-list {
   list-style: none;
   margin: 0;
   padding-left: 1.25rem;
-}
-.footer-menu-title:hover {
-  color: #5c8ee6;
 }
 .footer-menu-item:hover .footer-menu-link {
   color: #5c8ee6;
