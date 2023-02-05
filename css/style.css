@@ -148,6 +148,9 @@ body {
   font-size: 1rem;
   color: inherit;
 }
+.header-phone-link:hover {
+  color: #5c8ee6;
+}
 .button {
   font-weight: 600;
   font-size: 1rem;
